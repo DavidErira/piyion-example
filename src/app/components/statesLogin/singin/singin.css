@@ -1,0 +1,219 @@
+
+.container-gen1-singin{
+    margin-top: 30px;
+    height: calc(100% - 0px);
+    min-height: 620px;
+    margin-left: 30px;
+    width: calc(100% - 60px);
+
+}
+
+.title-desktop-singin{
+    color: var(--azul-oscuro-piyion);
+    font-size: 28px;
+    font-weight:bold;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.title-movile-singin{
+  display: none;
+}
+.logo-img-singin{
+  height: 50px;
+  margin-top: 10px;
+}
+
+@media (max-width: 760px){
+  .title-desktop-singin{
+    display: none;
+  }
+  .title-movile-singin{
+    color: var(--azul-oscuro-piyion);
+    font-size: 28px;
+    font-weight:bold;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+.zone-inputs-singin{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 300px;
+    min-height: 300px;
+    margin-top: 30px;
+
+}
+
+.card-inputs-and-select-role-singin{
+  height: 100%;
+  min-height: 100px;
+
+  width: 100%;
+  border-radius: 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.37);
+
+}
+
+.select-card-role-singin{
+  height: 40px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: rgba(158, 105, 243, 0.6);
+  display: flex;
+}
+
+.container-inputs-card-singin{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: calc(100% - 80px);
+  min-height: 100px;
+  margin-left: 30px;
+  width: calc(100% - 60px);
+}
+
+.item-select-singin{
+  width: 50%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.text-item-select-singin{
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 2px;
+  padding-right: 2px;
+/*   border-bottom: solid 2px #9E69F3; */
+}
+
+.container-input-singin{
+    width: 90%;
+}
+
+.title-input-singin{
+    color: rgb(43, 43, 43);
+    font-size: 14px;
+    font-weight:bold;
+    margin-left: 10px;
+}
+
+.input-singin{
+    width: 100%;
+    color: rgb(43, 43, 43);
+    font-size: 18px;
+    background-color: #dddddd;
+    border: 0px solid #000;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.button-singin{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight:bold;
+    background: #0F002E;
+    border: 0px solid #000;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+.tag-singin{
+    color: var(--color-tags-general);
+    font-size: 14px;
+    font-weight:bold;
+    width: max-content;
+    margin-right: 5px;
+    border-bottom: 1px solid var(--color-tags-general);
+    cursor: pointer;
+}
+
+.tag-singin:hover{
+  color: var(--color-tags-general-hover);
+  border-bottom: 1px solid var(--color-tags-general-hover);
+}
+
+.icon-admiration-singin{
+    position: fixed;
+    margin-top: -1px;
+    margin-left: -22px;
+    height: 18px;
+}
+
+.zone-otherslogin-singin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-or-singin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.rect-or-singin{
+    background-color: var(--azul-oscuro-piyion);
+    height: 1px;
+    width: 45%;
+}
+
+.container-zones-inputs-otherslogin-singin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 110px);
+    min-height: max-content;
+
+}
+
+.zone-errors-singin{
+   padding-left: 6%;
+   padding-right: 6%;
+   color: var(--color-error-inputs);
+}
+
+.containermovile-icons{
+    display: none;
+ }
+
+
+
+@media (max-width: 760px) {
+    .containermovile-icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .container-zones-inputs-otherslogin-singin{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: calc(100% - 120px);
+      }
+}
+
+

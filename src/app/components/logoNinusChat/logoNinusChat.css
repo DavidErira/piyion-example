@@ -1,0 +1,24 @@
+.logo-zone-logoninuschat{
+    width: 200px;
+    height: auto;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+  }
+
+  .icon-logo-logoninuschat{
+    height: auto;
+    width: 100%;
+  }
+
+  .title-logo-logoninuschat{
+    margin-top: 5px;
+    height: auto;
+    width: 75%;
+    margin-bottom: 2px;
+  }
+

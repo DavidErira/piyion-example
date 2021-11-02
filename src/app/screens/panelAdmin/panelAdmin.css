@@ -1,0 +1,83 @@
+
+.container-gen-paneladmin{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    font-family: 'Archivo', sans-serif;
+    height: 100%;
+}
+
+.container-barmenu-paneladmin{
+    height: 100%;
+    position:fixed;
+}
+
+.body-paneladmin{
+    width:100%;
+    height: calc(100% - 80px);
+    display: flex;
+    align-items: flex-end;
+   
+}
+
+.container-robotninus-paneladmin{
+    width: calc(100% - 40px);
+    height: max-content;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+.png-robot-paneladmin{
+    width: 300px;
+    height: auto;
+    max-height: 470px;
+}
+
+.txt-robot-paneladmin{
+    width: 220px;
+    max-height: 220px;
+    margin-left: -80px;
+    margin-top: -160px;
+}
+
+@media (max-width: 750px) {
+    .container-robotninus-paneladmin{
+        width: calc(100% - 20px);
+        margin-bottom: 40px;
+    }
+    
+    .png-robot-paneladmin{
+        width: 170px;
+        height: auto;
+        max-height: 270px;
+    }
+    
+    .txt-robot-paneladmin{
+        width: 180px;
+        max-height: 180px;
+        margin-left: -40px;
+        margin-top: -140px;
+    }
+}
+
+@media (max-height: 700px) {
+    .container-robotninus-paneladmin{
+        width: calc(100% - 20px);
+        margin-bottom: 40px;
+    }
+    
+    .png-robot-paneladmin{
+        width: 170px;
+        height: auto;
+        max-height: 270px;
+    }
+    
+    .txt-robot-paneladmin{
+        width: 180px;
+        max-height: 180px;
+        margin-left: -40px;
+        margin-top: -140px;
+    }
+}

@@ -1,0 +1,129 @@
+.container-gen-buttonprofile{
+    width: auto;
+    min-width: 170px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow-y:inherit;
+}
+
+.zone-name-icon-buttonprofile{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 8px;
+    background-color: #0F002E;
+    border: solid 1px #fff;
+    z-index: 100;
+    cursor: pointer;
+
+    width: max-content;
+    min-width: 170px;
+}
+
+.zone-name-icon-buttonprofile:hover{
+    background-color: #2d1b53;
+}
+
+.window-options-buttonprofile{
+    background-color: #0000005b;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    min-height: 50px;
+    margin-top: -50px;
+    border-radius: 9px;
+    z-index: 10;
+}
+
+.icon-user{
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+.container-options-buttonprofile{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: hidden;
+
+}
+
+.option-buttonprofile{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.title-option{
+    border-bottom: solid 1px #fff;
+    cursor: pointer;
+}
+
+.title-option:hover{
+    color: rgb(216, 237, 253);
+    border-bottom: solid 1px rgb(216, 237, 253);
+}
+
+.img-option-buttonprofile{
+    width: 25px;
+    height: 25px;
+}
+
+.name-buttonprofile{
+    width: max-content;
+    max-width: 150px;
+    min-width: 80px;
+
+    height: 50px;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 820px) {
+
+    .container-gen-buttonprofile{
+        height: 50px;
+    }
+
+    .zone-name-icon-buttonprofile{
+        height: 50px;
+    }
+    
+    .name-buttonprofile{
+        width: 120px;
+        height: 50px;
+        font-size: 16px;
+        white-space: nowrap;
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+    }
+
+    .window-options-buttonprofile{
+        min-height: 40px;
+        margin-top: -40px;
+    }
+
+    .icon-user{
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+    }
+
+}

@@ -1,0 +1,97 @@
+.container-gen-resendemailveri{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.title-resendemailveri{
+  margin-top: 50px;
+  width: 100%;
+  color: rgb(43, 43, 43);
+  font-size: 28px;
+  font-weight:bold;
+  text-align: center;
+}
+
+.container-resendemailveri{
+  display: none;
+}
+
+@media (max-width: 760px){
+  .container-resendemailveri{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+}
+
+.logo-img-resendemailveri{
+  height: 50px;
+}
+
+.zone-inputs-resendemailveri{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 180px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.button-resendemailveri{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight:bold;
+    background: #0F002E;
+    border: 0px solid #000;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+.container-tag-resendemailveri{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.icon-tag-back-resendemailveri{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.tag-resendemailveri{
+    margin-top: 0px;
+    color: var(--violeta-piyion-1);
+    font-size: 14px;
+    font-weight:bold;
+    width: max-content;
+    cursor: pointer;
+}
+
+.text-description-resendemailveri{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.zone-error-resendemailveri{
+    margin-top: 50px;
+    padding-left: 6%;
+   padding-right: 6%;
+   color: var(--color-error-inputs);
+
+}

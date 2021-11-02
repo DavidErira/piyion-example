@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+/* DECLARACIÓN DE VARIABLES GENERALES */
+:root {
+  --azul-oscuro-piyion :#0A0A44;
+  --rosa-piyion-1: #FF3355;
+  --violeta-piyion-0: #4B2982;
+  --violeta-piyion-1: #9E69F3;
+
+  --color-background-login-asesor: var(--violeta-piyion-0);
+  --color-background-login-administrador: var(--azul-oscuro-piyion);
+  --color-tags-general:var(--azul-oscuro-piyion);
+  --color-tags-general-hover:var(--violeta-piyion-1);
+  --color-error-inputs:var(--rosa-piyion-1);
+
+  --font-piyion-1:'Montserrat', sans-serif;
+  --font-piyion-2:'Roboto', sans-serif;
+}

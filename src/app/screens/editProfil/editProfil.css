@@ -1,0 +1,377 @@
+.container-firstsettings{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    font-family: 'Archivo', sans-serif;
+    height: 100%;
+}
+
+.body-firstsettings{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: calc(100% - 80px);
+    overflow-y: scroll;
+}
+
+.body-firstsettings::-webkit-scrollbar {
+    background-color: rgba(255, 255, 255, 0);
+    width: 16px;
+}
+
+/* background of the scrollbar except button or resizer */
+.body-firstsettings::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* scrollbar itself */
+.body-firstsettings::-webkit-scrollbar-thumb {
+    background-color: #dddddd;
+    border-radius: 16px;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+/* scrollbar itself */
+.body-firstsettings::-webkit-scrollbar-thumb:hover {
+    background-color: #b4b4b4;
+    border-radius: 16px;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+/* set button(top and bottom of the scrollbar) */
+.body-firstsettings::-webkit-scrollbar-button {
+    display:none;
+}
+
+
+.title-firstsettings{
+    --margin-title: 160px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: var(--margin-title);
+    width: calc(100% - calc(var(--margin-title) * 2));
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.subtitle-firstsettings{
+    --margin-title: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: var(--margin-title);
+    width: calc(100% - calc(var(--margin-title) * 2));
+}
+
+.zone-config-firstsettings{
+    margin-top: 10px;
+    --margin-zone-config: 150px;
+    margin-left: var(--margin-zone-config);
+    width: calc(100% - calc(var(--margin-zone-config) * 2));
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-inputs-firstsettings{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: calc(100% - 100px);
+    display:flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    --width-inputninus-firstsettings:380px;
+    --marginLeft-inputninus-firstsettings: 20px;
+
+}
+
+.container-buttons-firstsettings{
+    margin-top: 30px;
+    margin-left: 70px;
+    width: calc(100% - 100px);
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    --width-custombutton-firstsettings: 380px
+}
+
+.description-firstsettings{
+    margin-left: 40px;
+    width: calc(100% - 60px);
+    margin-top: 10px;
+}
+
+.end-zone-firstsettings{
+    --margin-zone-end: 70px;
+    margin-left: var(--margin-zone-end);
+    width: calc(100% - calc(var(--margin-zone-end) * 2));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button-firstsettings{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight:bold;
+    background: #0F002E;
+    border: 0px solid #000;
+    width: max-content;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.img-ilustration-firstsettings{
+    width: 150px;
+}
+
+
+.zone-company-firstsettings{
+    width: 100%;
+    height: max-content;
+}
+
+.line-div-firstsettings{
+    background-color: black;
+    height: 1;
+    margin-left: 30px;
+    width: calc(100% - 60px);
+}
+
+.container-window-company-firstsettings{
+
+    margin-top: 20px;
+    margin-left: 40px;
+    width: calc(100% - 80px);
+    border-radius: 10px;
+    padding-bottom: 20px;
+
+    background-color: rgb(236, 236, 236);
+}
+
+.end-zone-buttons-firstsettings{
+    margin-top: 20px;
+    margin-left: 150;
+    width: calc(100% - 300px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 920px) {
+    .container-inputs-firstsettings{
+        margin-top: 20px;
+        margin-left: 50px;
+        width: calc(100% - 100px);
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .container-buttons-firstsettings{
+        margin-top: 20px;
+        margin-left: 70px;
+        width: calc(100% - 100px);
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .zone-config-firstsettings{
+        margin-top: 10px;
+        --margin-zone-config: 60px;
+        margin-left: var(--margin-zone-config);
+        width: calc(100% - calc(var(--margin-zone-config) * 2));
+        min-width: calc(100% - calc(var(--margin-zone-config) * 2));
+        border: solid 1px #000;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-firstsettings{
+        --margin-title: 70px;
+        font-size: 22px;
+        font-weight: bold;
+        margin-left: var(--margin-title);
+        width: calc(100% - calc(var(--margin-title) * 2));
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .end-zone-buttons-firstsettings{
+        margin-left: 60px;
+        width: calc(100% - 120px);
+    }
+
+}
+
+@media (max-width: 720px) {
+
+    .container-inputs-firstsettings{
+        margin-top: 20px;
+        margin-left: 10px;
+        width: calc(100% - 20px);
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       --width-inputninus-firstsettings: calc(100% - 60px)
+    }
+
+    .container-buttons-firstsettings{
+        margin-top: 20px;
+        margin-left: 50px;
+        width: calc(100% - 80px);
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        --width-custombutton-firstsettings:100%
+    }
+
+    .button-firstsettings{
+        width: 100%;
+    }
+
+}
+
+
+@media (max-height: 700px) {
+    .container-firstsettings{
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        font-family: 'Archivo', sans-serif;
+    }
+
+/*     .zone-config-firstsettings{
+        margin-bottom: 100px;
+    } */
+}
+
+@media (max-width: 550px) {
+
+    .container-firstsettings{
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        font-family: 'Archivo', sans-serif;
+    }
+
+    .container-inputs-firstsettings{
+        margin-top: 20px;
+        margin-left: 10px;
+
+        padding-left:-20px ;
+
+        width: calc(100% - 20px);
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        --width-inputninus-firstsettings: calc(100% - 40px);
+        --marginLeft-inputninus-firstsettings:0px
+    }
+
+    .container-buttons-firstsettings{
+        margin-top: 20px;
+        margin-left: 30px;
+        width: calc(100% - 60px);
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .end-zone-firstsettings{
+
+        --margin-zone-end: 30px;
+        margin-left: var(--margin-zone-end);
+        width: calc(100% - calc(var(--margin-zone-end) * 2));
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+
+        margin-top: 30px;
+    }
+
+    .img-ilustration-firstsettings{
+        width: 150px;
+        margin-top: 80px;
+    }
+
+    .zone-config-firstsettings{
+        margin-top: 10px;
+        --margin-zone-config: 20px;
+        margin-left: var(--margin-zone-config);
+        width: calc(100% - calc(var(--margin-zone-config) * 2));
+    
+        min-width: calc(100% - calc(var(--margin-zone-config) * 2));
+        border: solid 1px #000;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .title-firstsettings{
+        --margin-title: 30px;
+    
+        font-size: 22px;
+        font-weight: bold;
+        margin-left: var(--margin-title);
+        width: calc(100% - calc(var(--margin-title) * 2));
+    }
+
+    .description-firstsettings{
+        margin-left: 20px;
+        width: calc(100% - 40px);
+        margin-top: 50px;
+    }
+
+    .container-window-company-firstsettings{
+        margin-top: 20px;
+        margin-left: 20px;
+        width: calc(100% - 40px);
+        border-radius: 10px;
+        padding-bottom: 20px;
+        background-color: rgb(236, 236, 236);
+    }
+
+    .end-zone-buttons-firstsettings{
+        margin-left: 20px;
+        width: calc(100% - 40px);
+        justify-content: center;
+    }
+
+}
+
+
+@media (max-width: 340px) {
+    .container-buttons-firstsettings{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+

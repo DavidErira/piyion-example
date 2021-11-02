@@ -1,0 +1,143 @@
+
+.container-gen-otherinputs{
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.container-icon-otherinputs{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  border: solid 0px #000;
+  background-color: rgba(170, 38, 38, 0);
+ 
+}
+
+
+.icon-otherinputs{
+   width: 40px;
+   height: 40px;
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-template-rows: 50% 50%;
+
+   cursor: pointer;
+}
+
+.container-circle-otherinputs{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.circle-icon-otherinputs{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #CC94F8;
+}
+
+
+
+.window-pop-otherinputs{
+  width: 0px;
+
+  height: 0px;
+  margin-top: 0px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.window-pop-content-otherinputs{
+  background-color: rgba(0, 0, 0, 0.562);
+  backdrop-filter: blur(5px);
+  
+  width: 100%;
+  height: calc(100% - 10px);
+  border-radius: 10px;
+
+  padding-top: 5px;
+
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+
+  overflow: hidden;
+
+}
+
+.button-space-otherinputs{
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-icon-otherinputs{
+  width: 0px;
+  height: 0px;
+  cursor: pointer;
+}
+
+
+.window-pop-tap-otherinputs{
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  opacity: 0;
+  display: none;
+}
+
+.containerinput-file-otherinputs{
+
+  height: 40px;
+  width: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.one-input-otherinputs{
+
+  height: 65px;
+  width: 40px;
+  z-index: 1;
+  opacity: 1;
+
+  margin-top: -25px;
+  cursor: pointer;
+}
+
+.custom-file-one-input-otherinputs{
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  margin-left: -40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

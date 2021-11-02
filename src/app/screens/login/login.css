@@ -1,0 +1,231 @@
+
+  .container-gen-login{
+    position:fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    left:0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    font-family: var(--font-piyion-1);
+    flex-direction: column;
+    align-items:flex-end;
+    /* background-color: var(--color-background-login-administrador); */
+  }
+
+  .container-body{
+    width: 100%;
+    height:calc(100% - 0px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (max-width: 760px) {
+    .container-body{
+      background-color: #fff;
+    }
+  }
+
+
+  .container-zone-login{
+    max-width: 800px;
+    width: calc(100% - 100px);
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 21px;
+    /* margin-left: 10px; */
+    /* margin-right: 50px; */
+    margin-top: 50px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(158, 105, 243, 0.466);
+  }
+
+
+  .zone-logo-text-icons{
+    width: calc(50% - 5px);
+    height: 100%;
+    /* background-color:var(--azul-oscuro-piyion); */
+    background-color:rgba(10, 10, 68, 0.212);
+    backdrop-filter: blur(3px);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    color: white;
+  }
+
+  .login-degrade{
+    width:5px;
+    height: 100%;
+    background: linear-gradient(180deg, #9E69F3 0%, #D3C5EF 36.46%, #9E69F3 70.31%, #D3C5EF 100%);;
+  }
+
+
+  .zone-icons-login{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  .icon-social-network-login{
+    height: 0px;
+    width: 0px;
+  }
+
+  .pay-zone-text-login{
+    height: 20px;
+    width: 5px;
+    background-color: white;
+  }
+
+  .container-controlstatelogin{
+    height: 100%;
+    width: 50%;
+  }
+
+
+  @media (max-height: 750px) {
+    .container-body{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items:center; 
+      justify-content: flex-start; 
+      overflow-y: scroll;
+    }
+
+    .container-body::-webkit-scrollbar {
+      background-color: rgba(255, 255, 255, 0);
+      width: 10px;
+    }
+    
+    /* background of the scrollbar except button or resizer */
+    .container-body::-webkit-scrollbar-track {
+      background-color: rgba(255, 255, 255, 0);
+    }
+    
+    /* scrollbar itself */
+    .container-body::-webkit-scrollbar-thumb {
+      background-color: #0000007c;
+     /*  border-radius: 16px; */
+      border: 0px solid rgba(0, 0, 0, 0.459);
+    }
+    
+    /* scrollbar itself */
+    .container-body::-webkit-scrollbar-thumb:hover {
+      background-color: #00000075;
+      /* border-radius: 16px; */
+      border: 0px solid rgba(0, 0, 0, 0.466);
+    }
+    
+    /* set button(top and bottom of the scrollbar) */
+    .container-body::-webkit-scrollbar-button {
+      display:none;
+    }
+    .container-zone-login{
+        min-height: 600px;
+        height: 600px;
+    }
+    .container-controlstatelogin{
+      min-height: 100%;
+      height: 100%;
+     }
+  }
+
+
+  @media (max-width: 760px) {
+  
+    /* CSS */
+    .container-zone-login{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      border: 0px solid #0F002E;
+      border-radius: 21px;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .zone-logo-text-icons{
+      display: none;
+    }
+
+    .login-degrade{
+      display: none;
+    }
+
+    .container-controlstatelogin{
+      height: 100%;
+      width: 100%;
+    }
+  }
+  @media (max-height: 550px) and (max-width: 760px){
+    .container-zone-login{
+      width: 100%;
+      height: 600px;
+      display: flex;
+      flex-direction: row;
+      border: 0px solid #0F002E;
+      border-radius: 21px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+  }
+  @media (max-height: 700px) and (max-width: 760px){
+     .container-zone-login{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        border: 0px solid #0F002E;
+        border-radius: 21px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+  }
+
+  .credentials-escritorio-ninus-login{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 13px;
+
+  }
+
+  .credentials-escritorio-icon-ninus-login{
+    margin-left: 5px;
+    width: 16px;
+    height: 16px;
+    margin-bottom: 2px;
+  }
+
+
+  @media (max-width: 760px) {
+    .credentials-escritorio-ninus-login{
+      display: none;
+    }
+  }
+
+  .container-idiom-select-login{
+    height: 25px;
+    width: 90px;
+    margin-right: 20px;
+  }
+
+
+  

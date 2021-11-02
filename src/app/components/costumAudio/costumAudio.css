@@ -1,0 +1,51 @@
+.container-gen-costumaudio{
+    width: 300px;
+    height: 60px;
+    display: flex;
+}
+
+.container-icon-user-costumaudio{
+    background-color: rgb(255, 255, 255);
+    width: 58px;
+    height: 54px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.icon-user-costumaudio{
+    width: 55px;
+    height: 55px;
+    z-index: 100;
+}
+
+.container-element-audio-costumaudio{
+    width: 240px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.audio-container-costumaudio{
+    width: 285px;
+}
+
+.audio-container-costumaudio::-webkit-media-controls-panel{
+   background-color: #fff;
+}
+
+.audio-container-costumaudio::-webkit-media-controls-mute-button{
+    display: none;
+}
+
+.audio-container-costumaudio::-webkit-media-controls-volume-slider{
+    display: none;
+}
+
+
+.audio-container-costumaudio::-webkit-media-controls-time-remaining-display{
+   
+}
+
+.audio-container-costumaudio::-webkit-media-controls-current-time-display{
+    
+}
+

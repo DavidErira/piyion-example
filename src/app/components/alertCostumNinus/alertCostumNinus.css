@@ -1,0 +1,135 @@
+.container-gen-alertcostumninus{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.37);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    backdrop-filter: blur(3px);
+    top: 0px;
+    left: 0px;
+}
+
+
+.container-window-alertcostumninus{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.356);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    width: 450px;
+    height: max-content;
+    margin-bottom: 100px;
+    margin-top: -100%;
+}
+
+.close-alertcostumninus{
+    background-color: #4c00ff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: -15px;
+    margin-right:-15px;
+    cursor: pointer;
+}
+
+.close-alertcostumninus:hover{
+    background-color: #3b03be;
+}
+
+
+.close-icon-alertcostumninus{
+    width: 30px;
+    height: 30px;
+}
+
+
+.zone-msg-alertcostumninus{
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right:20px ;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #0f002e59;
+    margin-bottom: 10px;
+    min-height: 50px;
+    width: calc(100% - 40px);
+    height: max-content;
+}
+
+.zone-buttons-alertcostumninus{
+    height: max-content;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    min-height: 40px;
+    width: 100%;
+}
+
+.button-1-alertcostumninus{
+    background-color: #0F002E;
+    color: white;
+    border: solid 0px #000;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+
+    width: max-content;
+    height: max-content;
+}
+
+.zone-icon-alertcostumninus{
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-icon-check-alertcostumninus{
+    background-color: rgb(50, 221, 156);
+    border-radius: 50%;
+    width: 0px;
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37);
+}
+
+.container-icon-alert-alertcostumninus{
+    background-color: rgb(253, 203, 38);
+    border-radius: 50%;
+    width: 0px;
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
+}
+
+.container-icon-error-alertcostumninus{
+    background-color: rgb(253, 38, 74);
+    border-radius: 50%;
+    width: 0px;
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
+}
+
+.img-icon-alertcostumninus{
+    width: 60%;
+    height: 60%;
+    margin-top: -5px;
+}

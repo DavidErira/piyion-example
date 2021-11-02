@@ -1,0 +1,8 @@
+.zone-text-animatedText{
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    height: 110px;
+    display: flex;
+}

@@ -1,0 +1,86 @@
+.container-gen-waitEmailVerification{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.title-waitEmailVerification{
+    margin-top: 80px;
+    width: 100%;
+    color: rgb(43, 43, 43);
+    font-size: 28px;
+    font-weight:bold;
+    text-align: center;
+}
+
+.container-logo-waitEmailVerification{
+  display: none;
+}
+
+@media (max-width: 760px){
+  .container-logo-waitEmailVerification{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+}
+
+.logo-img-waitEmailVerification{
+  height: 50px;
+}
+
+.zone-inputs-waitEmailVerification{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: max-content;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.button-waitEmailVerification{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight:bold;
+    background: #0F002E;
+    border: 0px solid #000;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.tag-waitEmailVerification{
+    color: #CC94F8;
+    font-size: 14px;
+    font-weight:bold;
+    width: max-content;
+    margin-right: 5px;
+    border-bottom: 1px solid #CC94F8;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.text-description-waitEmailVerification{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 90px;
+}
+
+
+
+.zone-error-waitEmailVerification{
+    margin-top: 50px;
+    padding-left: 6%;
+   padding-right: 6%;
+   color: var(--color-error-inputs);
+
+}

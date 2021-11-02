@@ -1,0 +1,50 @@
+
+Lista de todos los datos se deben almacenar
+Luego organizarlos
+
+---------------------------------------------------------------------------------
+
+admin accounts
+advisors accounts
+
+Admin account <- profil data
+Advisors account <- profil data
+
+Admin account <- advisors account group
+
+Admin account <- accounts social network 
+         credenciales
+         configuraciones especiales por cada cuenta
+
+Admin account <- mensajes en espera de respuesta
+
+1 mensaje en espera de respuesta <- red social
+                                    autor
+                                    mensaje inicial o de saludo
+                                    hora y fecha 
+                                    otra información del mensaje
+
+Advisor acount <- chats registrados
+
+1 chat registrado <- historial del chat
+                    autor
+                    red social
+                    horas y fechas de los mensajes y la conversación
+                    información extra del chat
+
+
+admin account <- clientes
+
+    cliente <- advisors que le han respondido
+                nombre
+                correo
+                celular
+                red sociales usadas
+                información extra
+                horas y fechas 
+
+advisor acount <- chats activos 
+
+
+
+advisor account <- calificacion por los usuarios

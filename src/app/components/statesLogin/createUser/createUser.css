@@ -1,0 +1,193 @@
+.container-gen-createUser{
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 30px);
+
+}
+
+@media (max-width: 760px){
+  .container-gen-createUser{
+    height: calc(100% - 0px);
+  }
+}
+
+
+.title-createUser{
+    margin-top: 30px;
+    width: 100%;
+    color: rgb(43, 43, 43);
+    font-size: 28px;
+    font-weight:bold;
+    text-align: center;
+}
+
+@media (max-width: 840px){
+  .title-createUser{
+    margin-top: 20px;
+  }
+
+}
+
+
+.title-movile-createUser{
+  display: none;
+}
+.logo-img-createUser{
+  height: 50px;
+  margin-top: 10px;
+}
+
+@media (max-width: 760px){
+  .title-createUser{
+    display: none;
+  }
+  .title-movile-createUser{
+    color: var(--azul-oscuro-piyion);
+    font-size: 28px;
+    font-weight:bold;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+}
+
+
+.subtitle-createUser{
+  margin-top: 20px;
+  margin-left: 15px;
+  width: calc(100% - 20px);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (max-width: 840px){
+  .subtitle-createUser{
+    margin-top: 5px;
+  }
+}
+
+.container-zones-inputs-register-createUser{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 180px);
+    margin-top: 10px;
+}
+
+.zone-inputs-createUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    padding-left: 6%;
+    padding-right: 6%;
+
+}
+
+@media (max-width: 840px) {
+  .zone-inputs-createUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 230px;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+}
+
+.button-createUser{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight:bold;
+    background: #0F002E;
+    border: 0px solid #000;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.zone-register-createUser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.container-tag-createUser{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.icon-tag-back-createUser{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.tag-createUser{
+    margin-top: 0px;
+    color: var(--violeta-piyion-1);
+    font-size: 14px;
+    font-weight:bold;
+    width: max-content;
+    cursor: pointer;
+}
+
+.zone-errors-createUser{
+    font-size: 13px;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-error-inputs);
+
+ }
+
+
+ .container-politics-createUser{
+   margin-left: 20px;
+   width: calc(100% - 40px);
+   height: max-content;
+
+ }
+
+ .item-politics-createUser{
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  white-space: nowrap;
+  margin-top: 5px;
+ }
+
+ .check-politics-createUser{
+  height: 15px;
+  min-width: 15px;
+  width: 15px;
+  min-height: 15px;
+ }
+
+ .link-politics-createUser{
+  color: var(--violeta-piyion-1);
+  white-space: nowrap;
+  margin-left: 4px;
+ }

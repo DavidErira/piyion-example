@@ -1,0 +1,50 @@
+
+.container-gen-animatedIcons{
+  width: 100%;
+  max-width: 400px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.text-animatedIcons{
+  margin-bottom: 7px;
+  font-size: 12px;
+  font-family: var(--font-piyion-2);
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.3em;
+  color: #fff;
+}
+@media (max-width: 760px){
+  .text-animatedIcons{
+    color: #000;
+    font-weight: bold;
+  }
+}
+
+
+.zone-icons-animatedIcons{
+    width: calc(100% - 150px);
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 2px var(--violeta-piyion-1);
+    padding-top: 15px;
+}
+
+  .container-icon-social-network-animatedIcons{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-social-network-animatedIcons{
+    height: 0px;
+    width: 0px;
+  }

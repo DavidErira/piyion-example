@@ -1,0 +1,102 @@
+.container-gen-chatsonline{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    font-family: 'Archivo', sans-serif;
+    height: 100%;
+}
+
+.body-chatsonline{
+    width: 100% ;
+    height: calc(100% - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(219, 219, 219);
+}
+
+.container-zone-msgs-chatsonline{
+    width: 95%;
+    height: 95%;
+    display: flex;
+}
+
+.zone-chatsopen-chatsonline{
+    height: 100%;
+    width: 350px;
+    margin-right: 20px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.container-controlmsgs-send-chatsonline{
+    width: calc(100% - 350px);
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.zone-headerchat-chatsonline{
+  background-color: rgb(255, 255, 255);
+
+  height: 100px;
+  width: 100%;
+  
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  margin-bottom: 8px;
+ 
+}
+
+.zone-controlmsgs-chatsonline{
+    max-height: 100%;
+    min-height: 0px;
+    height: 100%;
+    width: 100%;
+
+    background-color: white;
+}
+
+.zone-send-msg-chatsonline{
+    height: max-content;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-top: solid 1px rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    background-color: white;
+}
+
+
+@media (min-width: 1400px) {
+
+    .container-zone-msgs-chatsonline{
+        width: 1400px;
+        height: calc(100% - 30px);
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+    .zone-chatsopen-chatsonline{
+        width: 250px;
+    }
+    
+    .container-controlmsgs-send-chatsonline{
+        width: calc(100% - 250px);
+    }
+
+}

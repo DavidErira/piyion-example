@@ -1,0 +1,85 @@
+
+.container-gen-inputmsg{
+  width: 70%;
+  height: max-content;
+  background-color:rgb(233, 233, 233) ;
+  padding-right: 10px;
+  border-radius: 20px;
+
+  padding-top: 12px;
+  padding-bottom: 5px;
+}
+
+/* .input-inputmsg{
+  width: 100%;
+  height: max-content;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(228, 228, 228);
+  padding-left: 15px;
+  font-size: 18px;
+}
+
+.input-inputmsg:focus {
+  outline: none;
+} */
+
+.input-inputmsg {
+  display: block;
+  width: calc( 100% - 15px);
+  overflow-y: scroll;
+
+  min-height: 25px;
+  line-height: 20px;
+  max-height: 100px;
+
+  padding-left: 15px;
+
+  font-size: 16px;
+
+}
+
+.input-inputmsg[contenteditable]:empty::before {
+  content: "Escribe un mensaje . . .";
+  color: gray;
+  cursor: text;
+}
+
+.input-inputmsg:focus {
+  outline: none;
+}
+
+
+.input-inputmsg::-webkit-scrollbar {
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 12px;
+
+  cursor: pointer;
+}
+
+/* background of the scrollbar except button or resizer */
+.input-inputmsg::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+
+/* scrollbar itself */
+.input-inputmsg::-webkit-scrollbar-thumb {
+  background-color: #acacac;
+  border-radius: 16px;
+  border: 3px solid rgb(233, 233, 233);
+  cursor: pointer;
+}
+
+/* scrollbar itself */
+.input-inputmsg::-webkit-scrollbar-thumb:hover {
+  background-color: #a09e9e;
+  border-radius: 16px;
+  border: 3px solid rgb(233, 233, 233);
+}
+
+/* set button(top and bottom of the scrollbar) */
+.input-inputmsg::-webkit-scrollbar-button {
+  display:none;
+}

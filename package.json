@@ -1,0 +1,52 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "webpack-dev-server --config webpack.config.dev.js --open",
+    "webpack-dev": "webpack --config webpack.config.dev.js --watch",
+    "express-dev": "cross-env NODE_ENV=development-test nodemon src/server/index.js",
+    "build-prod": "webpack --config webpack.config.prod.js",
+    "test-prod": "cross-env NODE_ENV=development-test nodemon server/index.js",
+    "start": "node server/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.6.0",
+    "json-loader": "^0.5.7",
+    "mini-css-extract-plugin": "^1.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^5.39.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "dotenv-webpack": "^7.0.3",
+    "express": "^4.17.1",
+    "firebase": "^7.24.0",
+    "framer-motion": "^4.1.17",
+    "i18next": "^21.2.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "react-alert": "^7.0.3",
+    "react-i18next": "^11.12.0",
+    "react-router-dom": "^5.2.0",
+    "react-select": "^5.1.0",
+    "url-loader": "^4.1.1"
+  }
+}

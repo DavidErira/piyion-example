@@ -1,0 +1,177 @@
+.container-line-mesg{
+    margin-left: 50px;
+    width: calc(100% - 100px) ;
+    height: max-content;
+    display: flex;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.container-gen-msg{
+    background-color: #ebebeb;
+    height: max-content;
+    width: max-content;
+    max-width: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
+
+
+.pin-msg-i{
+    width: 15px;
+    height: 15px;
+    margin-right: -14px;
+    user-select: none;
+}
+
+.pin-msg-other{
+    width: 15px;
+    height: 15px;
+    margin-left: -14px;
+}
+
+.zone-content-msg{
+    width: max-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    overflow-x: hidden;
+}
+
+.text-msg{
+    width: auto;
+    height: auto;
+    font-size: 16px;
+}
+
+.zone-endtext-msg{
+    margin-left: 20px;
+    margin-top: 8px;
+    float: right;
+    font-size: 13px;
+    color: rgb(94, 94, 94);
+}
+
+.check-msg{
+    width: auto;
+    height: auto;
+    max-width: 18px;
+    max-height: 13px;
+    margin-left: 5px;
+    user-select: none;
+}
+
+.container-img-msg{
+    background-color: rgb(194, 194, 194);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    position: relative;
+}
+
+.click-view-img-msg{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:10px ;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.click-view-img-msg:hover{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(3px);
+}
+
+.img-msg{
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 240px;
+    border-radius: 10px;
+}
+
+.pdf-msg{
+    border: solid 1px #000;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    max-width: 380px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.pdf-msg:hover{
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+
+.name-pdf-msg{
+    max-width: 170px;
+    font-weight: bold;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pdf-icon-msg{
+    width: 35px;
+    height: auto;
+}
+
+.download-pdf-icon-msg{
+    width: 30px;
+    height: 30px;
+}
+
+.container-download-img-icon-msg{
+    background-color: rgba(255, 255, 255, 0.658);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-top: -45px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border: solid 2px rgb(184, 183, 183);
+    display: none;
+}
+
+.container-download-img-icon-msg:hover{
+    background-color: rgb(255, 255, 255);
+    border: solid 2px rgb(121, 121, 121);
+}
+
+.download-img-icon-msg{
+    width: 15px;
+    height: 15px;
+}
+
