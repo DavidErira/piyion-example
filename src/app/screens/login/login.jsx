@@ -22,6 +22,8 @@ function Login(props) {
     //traducciónes
     const [t,i18n] = useTranslation("global");
 
+    const micons = "esta es mi constante string"
+
     //variables de control para animación del componente de texto animado
     const [startAnimLeter, setStartAnimLeter] = useState(false);
     const [endAnimateLeter,setEndAnimateLeter] = useState(false);
